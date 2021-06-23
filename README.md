@@ -10,3 +10,17 @@ Google Colab 中复现。
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uTSmhaCiT4_Hj3G3YHQA4QKVp5uitvrV?usp=sharing)
 
+
+## 预训练模型
+
+为了节约时间，你可以在[这里](https://drive.google.com/drive/folders/1ZdNCnoGhFuFAVdPA0W2z2mtLcftnLAJ2?usp=sharing)下载并导入我训练好的模型 。
+
+### 使用方法
+
+下载到本地后上传至 Colab 的运行实例，在 notebook 中输入
+
+```
+vit_model = torch.load('./vit_model_epo5.pth')
+```
+
+导入 ViT 的预训练模型，另外两个同理
