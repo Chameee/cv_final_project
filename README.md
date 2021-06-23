@@ -1,4 +1,9 @@
 # Computer Vision Final Project
 
+这是计算机视觉期末PJ的 repo，主要工作为对比了在相同参数量/FLOPs的情况下。基于 Transformer 和 Convolution 的模型在单个数据集上的训练效率。所有代码都整合在 jupyter notebook 中，可以直接在 
+
+Google Colab 中复现。
+
+## 在 Colab 中打开
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uTSmhaCiT4_Hj3G3YHQA4QKVp5uitvrV?usp=sharing)
 
